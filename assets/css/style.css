@@ -69,7 +69,7 @@ main {
   top: 0;
   left: 0;
   background: #fff;
-  z-index: 1;
+  z-index: 9;
 }
 .header .header-main {
   display: flex;
@@ -202,7 +202,7 @@ main {
   margin-top: 20px;
 }
 .wallect-info .wallect-info-item{
-  width: 46%;
+  width: 48%;
   background: url("../../assets/Images/home/wallect-info-bg-one.png") no-repeat center;
   padding:40px 20px;
   border-radius: 25px;
@@ -210,7 +210,7 @@ main {
   
 }
 .wallect-info .wallect-info-item-two{
-  width: 46%;
+  width: 48%;
   background: url("../../assets/Images/home/wallect-info-bg-two.png") no-repeat center;
   padding: 40px 20px;
   border-radius: 25px;
@@ -262,4 +262,14 @@ footer .invest {
   border-radius: 50%;
   transform: translateY(-46px);
   padding: 15px;
+ }
+
+@media (min-width: 320px) and (max-width: 599px) {
+  main {
+    width: auto;
+
+  }
+  .child {
+    width: auto;
 }
+} 
