@@ -50,29 +50,32 @@ h1, h2, h3, h4, h5, h6, span, p {
   font-display: auto;
 }
 main {
-  width: 560px;
-  height: 100vh;
+  width: 600px;
+  height: 100%;
   margin: 0 auto;
-  padding: 20px;
-}
-.wrapper-container {
-  /* max-height: 100vh; */
-  overflow-y: scroll;
-  background-color: #f1f3f6;
+  background: #a98484;
 }
 .main {
   width: 100%;
   height: 100%;
   position: relative;
 }
-
+.wrapper-container {
+  height: 100vh; 
+  overflow-y: scroll;
+  background-color: #f1f3f6;
+}
 .header {
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
-  background: #fff;
   z-index: 9;
+}
+.child {
+  width: 600px;
+  margin: 0 auto;
+  background: #fff;
 }
 .header .header-main {
   display: flex;
@@ -119,10 +122,7 @@ main {
   box-shadow: none;
 }
 
-.child {
-  width: 560px;
-  margin: 0 auto;
-}
+
 .gap{
   min-height: 65px;
   background: #fff;
@@ -1026,16 +1026,108 @@ main {
   font-size: 11px;
   color: #282828;
 }
-/* 
-.invest-page
-.invest-page
-.invest-page
-.invest-page
-.invest-page
-.invest-page
-.invest-page
-.invest-page
-.invest-page */
+
+/* --------------------------------- */
+.login-register{
+padding: 0 20px 0 20px;
+margin-bottom: 90px;
+}
+.login-register .left-arrow img{
+  width: 10px;
+  /* margin-left: 20px; */
+}
+.login-register .login-register-title{
+  margin-top: 8vw;
+  font-size: 7.46667vw;
+  font-weight: 700;
+  color: #282522;
+}
+.login-register .form-field-group {
+  padding: 2.66667vw;
+}
+.login-register .van-field__label {
+  width: 100%;
+  font-size: 3.73333vw;
+  color: #ababab;
+}
+.login-register .van-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+.login-register .form-field {
+  margin-bottom: 5.33333vw;
+  border: none;
+  padding: 0;
+  flex-wrap: wrap;
+  line-height: 1;
+}
+.login-register .van-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+  padding: 2.13333vw 0;
+  border-bottom: 1px solid #f3f3f3;
+}
+.login-register .van-button {
+  margin-bottom: 4vw;
+  height: 10.66667vw;
+  line-height: 10.66667vw;
+  font-size: 4.26667vw;
+  border-radius: 1.33333vw;
+  display: block;
+  width: 100%;
+  border: 0;
+}
+.login-register :focus-visible {
+  outline: 0;
+}
+
+.login-register .van-button__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.login-register .login-register-page-title{
+    margin-top: 2.66667vw;
+    margin-bottom: 18.66667vw;
+    color: #ababab;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.login-register  .van-field__button {
+  position: absolute;
+  top: -6px;
+  right: 0;
+}
+
+.login-register button:disabled {
+  border-color: #dedede!important;
+  background: #dedede!important;
+  color: #ababab!important;
+}
+.go-home {
+  color: #ff8c46;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
 /* --------------------------------- */
 
 
@@ -1046,7 +1138,7 @@ footer {
   width: 100%;
   bottom: 0;
   left: 0;
-  background: #fff;
+  /* background: #fff; */
 }
 footer .footer{
   display: flex;
