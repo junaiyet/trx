@@ -75,6 +75,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 60px;
 }
 .header .logo {
   width: 30%;
@@ -120,7 +121,8 @@ main {
   margin: 0 auto;
 }
 .gap{
-  height: 53.88px;
+  min-height: 65px;
+  background: #fff;
 }
 .hero-area-bg-white{
   background-color: #fff;
