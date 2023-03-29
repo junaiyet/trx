@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6, span, p {
   font-display: auto;
 }
 main {
-  width: 600px;
+  width: 560px;
   height: 100vh;
   margin: 0 auto;
   padding: 20px;
@@ -117,8 +117,11 @@ main {
 }
 
 .child {
-  width: 600px;
+  width: 560px;
   margin: 0 auto;
+}
+.gap{
+  height: 53.88px;
 }
 .hero-area-bg-white{
   background-color: #fff;
@@ -126,7 +129,7 @@ main {
   border-bottom-right-radius: 35px;
 }
 .hero-area {
-  margin-top: 55px;
+  /* margin-top: 55px; */
   background: url("../../assets/Images/hero-banner.png") no-repeat center;
   padding: 70px 0 60px 40px;
   border-radius: 25px;
@@ -238,11 +241,40 @@ main {
 
 }
 /*  */
-
-
-
-
 /*  */
+.invest-list{
+  background-color: #fff;
+  margin: 10px 16px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.nav-tabs {
+  border-bottom:0 !important;
+  background-color: #f1f3f6;
+  border-radius: 30px;
+  justify-content: space-between;
+}
+.invest-list .nav-tabs .nav-item{
+  width: 50%;
+}
+.invest-list .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+  font-size: 14px;
+  padding: 5px;
+  /* border: 0 !important; */
+  color: #282828 !important;
+  border-radius: 20px !important;
+  width: 100%;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #fff !important;
+  background-color: #ff8c46 !important;
+}
+/*  */
+
+
+
+
+/*--------------------------- */
 footer {
   position: fixed;
   width: 100%;
@@ -264,12 +296,52 @@ footer .invest {
   padding: 15px;
  }
 
-@media (min-width: 320px) and (max-width: 599px) {
+/* -------------------------------- */
+@media (min-width: 320px) and (max-width: 440.98px) {
   main {
     width: auto;
+    padding: 0;
 
   }
   .child {
     width: auto;
+}
+.wallect-info .wallect-info-item {
+  padding: 16px;
+  border-radius: 20px;
+ 
+}
+.wallect-info .wallect-info-item p {
+  font-size: 14px;
+}
+.wallect-info .wallect-info-item span {
+  font-size: 18px;
+}
+.hero-area {
+  padding: 35px 0 30px 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+} 
+@media (min-width: 441px) and (max-width: 599px) {
+  main {
+    width: auto;
+    padding: 0;
+
+  }
+  .child {
+    width: auto;
+}
+.gap {
+  background: #fff;
+  height: 69.88px;
+}
+.hero-area {
+  padding: 50px 0 49px 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.wallect-info .wallect-info-item {
+  padding: 24px 20px;
 }
 } 
