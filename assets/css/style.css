@@ -431,9 +431,9 @@
     
     .wallect-info .wallect-info-item span small {
         color: #282828;
-        font-size: 14px;
+        font-size: 10px;
+        font-weight: 200;
     }
-    
     .wallect-info .wallect-info-item small {
         color: #ff8c46;
         font-size: 12px;
