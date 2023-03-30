@@ -881,7 +881,7 @@
     
     .share-bg .share-bg-content {
         padding-top: 45px;
-        padding-right: 10px;
+        padding-right: 14px;
         position: absolute;
         top: 0px;
         right: 0px;
@@ -907,8 +907,12 @@
         border-radius: 2.66667vw 2.66667vw 0 0;
         background: #282522;
         color: #f9dec9;
-        transform: translateY(-80px);
-    }
+        transform: translateY(-78px);
+        -webkit-transform: translateY(-78px);
+        -moz-transform: translateY(-78px);
+        -ms-transform: translateY(-78px);
+        -o-transform: translateY(-78px);
+}
     
     .invitation-reward .btn {
         display: inline-block;
@@ -1591,9 +1595,12 @@
         .child {
             width: auto;
         }
-        .gap {
+        /* .gap {
             background: #fff;
             height: 69.88px;
+        } */
+        .header .logo {
+            width: 24%;
         }
         .hero-area {
             padding: 50px 0 49px 40px;
@@ -1616,6 +1623,10 @@
     }
     
     @media (min-width: 583px) and (max-width: 961px) {
+        .header .logo {
+            width: 20%;
+  
+        }
         .invest-page .nav-pills {
             background-color: #fff;
             padding: 19px 20px;
@@ -1625,6 +1636,10 @@
     }
     
     @media (min-width: 985px) {
+        .header .logo {
+            width: 20%;
+  
+        }
         .invitation-reward {
             transform: translateY(-150px);
             -webkit-transform: translateY(-150px);
