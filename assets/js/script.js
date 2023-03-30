@@ -7,3 +7,7 @@ $('.home-slider').slick({
   slidesToScroll: 1,
 
 });
+
+setTimeout(function(){
+  $(".preloder").fadeOut()
+},3000);
