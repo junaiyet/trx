@@ -611,19 +611,8 @@ main {
   color: #282828;
 }
 /* --------------------------------- */
-/* .share-bg{
-  
-  background: url("../../assets/Images/share-friend/share-friend-bg.png") no-repeat center;
-  background-size: 100%;
-  height: 248px;
-  position: absolute;
-  width: 100%;
-  top: 0;
-  display: flex;
-  justify-content: end;
-  
-} */
-.share-bg {
+
+/* .share-bg {
   overflow: hidden;
   padding-bottom: 5.33333vw;
   line-height: 1;
@@ -633,10 +622,19 @@ main {
   height: 200px;
   display: flex;
   justify-content: end;
+} */
+.share-bg-img{
+  position: relative;
+}
+.share-bg-img img{
+  width: 100%;
 }
 .share-bg .share-bg-content{
   padding-top: 50px;
   padding-right: 20px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
 }
 .share-bg .share-bg-content h2{
   font-weight: 700;
@@ -644,7 +642,7 @@ main {
   font-size: 20px;
 }
 .share-bg .share-bg-content p{
-  font-size: 3.2vw;
+  font-size: 14px;
 }
 .invitation-reward {
   display: flex;
@@ -704,7 +702,11 @@ main {
 }
 .code-gen {
   line-height: 1;
-  margin-left: 8vw;
+  /* margin-left: 8vw; */
+  width: 50%;
+}
+.code-gen .content{
+  text-align: center;
 }
 .code-gen img {
   display: block;
@@ -726,8 +728,7 @@ main {
 }
 .invitation-codes-item .qur {
   margin-right: 4vw;
-  width: 32vw;
-  height: 32vw;
+  width: 50%;
   padding: 4vw;
   border-radius: 2.66667vw;
   border: 1px solid #e4e4e4;
@@ -736,24 +737,26 @@ main {
   width: 100%;
   height: 100%;
 }
-.invite-link{
+.invite-link {
   position: relative;
   margin: 8vw auto 5.33333vw;
-  padding: 2.66667vw;
-  height: 14.4vw;
+  /* padding: 26px; */
+  height: 51px;
   border-radius: 1.33333vw;
   background: #f0f2f5;
+  line-height: 51px;
+  padding-left: 18px;
 }
 .share-btn {
   display: block;
   margin-bottom: 5.33333vw;
   padding: 0 2.66667vw;
-  height: 8vw;
-  line-height: 8vw;
+  height: 30px;
+  line-height: 30px;
   border-radius: 4vw;
   background: #282522;
   text-align: center;
-  font-size: 3.73333vw;
+  font-size: 14px;
   color: #fff;
 }
 .share-title {
@@ -781,23 +784,23 @@ main {
   background: #282828;
 }
 
-.share-components .icon img{
+.share-components .icon img {
   display: inline-block;
   vertical-align: middle;
-  margin: 0 1.6vw;
-  width: 5.33333vw;
-  height: 5.33333vw;
+  /* margin: 0 1.6vw; */
+  width: 25px;
+  height: 25px;
   background: no-repeat 0 0/contain;
 }
 /* --------------------------------- */
 .invest-page{
   margin-bottom: 90px;
 }
-.invest-page .nav-pills{
+.invest-page .nav-pills {
   background-color: #fff;
-  padding: 0 20px;
+  padding: 10px 20px;
   justify-content: space-between;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 .invest-page .nav-link {
   z-index: 0;
@@ -829,7 +832,7 @@ main {
 }
 
 .invest-page  .vip-bar {
-  padding: 1.33333vw 2.66667vw 0 3.2vw;
+  padding: 20px;
   background: #ecccaf;
 }
 .invest-page  .vip-card {
@@ -837,7 +840,7 @@ main {
   position: relative;
   margin: 0 auto;
   padding-left: 4.8vw;
-  width: 94.13333vw;
+  width: 100%;
   height: 37.6vw;
   background: url('/assets/Images/invest/invest_vip_card.acc5f650.png') no-repeat 0 0/contain;
   line-height: 1;
@@ -845,16 +848,16 @@ main {
 }
 .invest-page  .card-name {
   position: absolute;
-  top: 2.66667vw;
-  left: .53333vw;
+  top: 13px;
+  left: 0;
   padding: 1.33333vw 4vw;
   background-color: #e8c09e;
-  border-radius: 2.66667vw 0 1.33333vw 0;
+  border-radius: 20px 0 1.33333vw 0;
   color: #fff;
 }
 .invest-page  .level {
-  margin-top: 12vw;
-  margin-bottom: 5.33333vw;
+  margin-top: 63px;
+  margin-bottom: 0;
   padding-left: 8vw;
   background: url('/assets/Images/invest/vip-cion.png') no-repeat 0 50%/5.33333vw 4.53333vw;
   font-size: 5.6vw;
@@ -874,27 +877,36 @@ main {
   grid-template-columns: repeat(2,1fr);
   gap: 4vw;
   background: url('/assets/Images/invest/shape.png') no-repeat 0 0/contain;
+  z-index: 1;
 }
 .invest-page  .btn-groups  .btn {
   padding: 0;
-  height: 8.8vw;
-  line-height: 8.8vw;
+  height: 40px;
+  line-height: 40px;
   text-align: center;
   background: #6c3b23 !important;
   border-radius: .8vw;
-  font-size: 3.73333vw;
+  font-size: 14px;
   color: #fff;
 }
 .invest-page  .table-wrap {
   position: relative;
   overflow: hidden;
-  margin: 0 4vw 2.66667vw;
+  padding: 50px 4vw 2.66667vw;
   border-radius: 2.66667vw;
+  background: #FFF;
+  transform: translateY(-60px);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -webkit-transform: translateY(-60px);
+  -moz-transform: translateY(-60px);
+  -ms-transform: translateY(-60px);
+  -o-transform: translateY(-60px);
 }
-.invest-page  .table-wrap thead tr th{
+.invest-page  .table-wrap thead tr th {
   padding: 12px !important;
   background: #ffeee2;
-  font-size: 3.73333vw;
+  font-size: 14px;
   color: #6c3b23;
 }
 .invest-page  .table-wrap  .ui-table {
@@ -924,10 +936,11 @@ main {
   text-align: center;
 }
 .invest-page .ui-table td {
-  height: 10.66667vw;
+  height: 40px;
   color: #6d6d6d;
   border-bottom: 1px solid #ffe8de;
   text-align: center;
+  font-size: 14px;
 }
  .invest-page .ui-table .pl {
   padding-left: 4vw;
@@ -957,13 +970,13 @@ main {
   grid-template-columns: repeat(2,1fr);
 }
 .invest-page .link_icon .item {
-  height: 8vw;
-  line-height: 8vw;
+  /* height: 8vw; */
+  /* line-height: 8vw; */
   background-color: #fff;
   border-radius: 1.33333vw;
   color: #ff8c46;
   text-align: center;
-  font-size: 3.73333vw;
+  font-size: 18px;
 }
 .invest-page .link_icon .item:before {
   content: "";
@@ -1038,7 +1051,7 @@ margin-bottom: 90px;
 }
 .login-register .login-register-title{
   margin-top: 8vw;
-  font-size: 7.46667vw;
+  font-size: 50px;
   font-weight: 700;
   color: #282522;
 }
@@ -1221,7 +1234,7 @@ footer .footer-item{
   main {
     width: auto;
     padding: 0;
-
+    
   }
   .child {
     width: auto;
@@ -1238,4 +1251,31 @@ footer .footer-item{
 .wallect-info .wallect-info-item {
   padding: 24px 20px;
 }
+.invitation-reward {
+
+  transform: translateY(-100px);
+}
+.invitation-codes {
+  transform: translateY(-103px);
+  -webkit-transform: translateY(-103px);
+  -moz-transform: translateY(-103px);
+  -ms-transform: translateY(-103px);
+  -o-transform: translateY(-103px);
+}
 } 
+@media (min-width: 600px) {
+  .invitation-reward {
+    transform: translateY(-150px);
+    -webkit-transform: translateY(-150px);
+    -moz-transform: translateY(-150px);
+    -ms-transform: translateY(-150px);
+    -o-transform: translateY(-150px);
+}
+  .invitation-codes {
+    transform: translateY(-170px);
+    -webkit-transform: translateY(-170px);
+    -moz-transform: translateY(-170px);
+    -ms-transform: translateY(-170px);
+    -o-transform: translateY(-170px);
+}
+}
