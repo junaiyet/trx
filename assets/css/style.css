@@ -1463,7 +1463,7 @@
         color: #f3f3f3;
     }
     .login-register .van-button {
-        margin-bottom: 4vw;
+        margin-bottom: 10px;
         height: 40px;
         line-height: 10.66667vw;
         font-size: 14px;
@@ -1928,8 +1928,8 @@
 .withdrawal-page .top-bar {
     overflow: hidden;
     background: #fff;
-    border-radius: 0 0 5.33333vw 5.33333vw;
-    padding: 0 4vw 4vw;
+    border-radius: 0 0 20px 20px;
+    padding: 10px;
 }
 .withdrawal-page .top-bar .user-info-bar {
     display: flex;
@@ -1937,10 +1937,14 @@
     justify-content: space-between;
     margin: 1.33333vw 0 2.66667vw;
     padding: 4vw;
-    border-radius: 2.66667vw;
+    border-radius: 10px;
     background-image: linear-gradient(90deg,#ffad6b,#ff9554);
     color: #fff;
     line-height: 1;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .withdrawal-page .top-bar  .btn {
     min-width: 80px;
@@ -2268,8 +2272,8 @@ color: #6d6d6d;
 .invest-product  .van-stepper__minus, .van-stepper__plus {
     position: relative;
     box-sizing: border-box;
-    width: 7.46667vw;
-    height: 7.46667vw;
+    width: 20px;
+    height: 20px;
     margin: 0;
     padding: 0;
     color: #323233;
@@ -2290,12 +2294,12 @@ color: #6d6d6d;
 
 .invest-product  .van-stepper__input {
     box-sizing: border-box;
-    width: 8.53333vw;
-    height: 7.46667vw;
+    width: 20px;
+    height: 20px;
     margin: 0 .53333vw;
     padding: 0;
     color: #323233;
-    font-size: 3.73333vw;
+    font-size: 12px;
     line-height: normal;
     text-align: center;
     vertical-align: middle;
@@ -2318,12 +2322,12 @@ color: #6d6d6d;
     margin-right: 10px;
 }
 .invest-product .explain-header {
-    margin-top: 2.66667vw;
-    height: 8vw;
-    line-height: 8vw;
+    margin-top: 20px;
+    /* height: 8vw; */
+    /* line-height: 8vw; */
     color: #cfd3e9;
     font-weight: 700;
-    border-bottom: .53333vw solid #40afff;
+    border-bottom: 2px solid #40afff;
     color: #282828!important;
     border-color: #ff8c46!important;
 }
@@ -2332,13 +2336,13 @@ color: #6d6d6d;
 }
 .invest-product .explain-bodyer, .invest-product .form-bodyer {
     padding: 0;
-    font-size: 3.2vw;
+    font-size: 12px;
     /* background-color: #fff; */
 }
 .invest-product .explain-bodyer li, .invest-product .form-bodyer li {
     display: flex;
     justify-content: space-between;
-    padding: 2.66667vw 0;
+    padding: 5px 0;
     font-size: 11px;
 }
 .invest-product .explain-bodyer .label, .invest-product .form-bodyer .label {
@@ -2412,10 +2416,28 @@ color: #6d6d6d;
         height: 30px;
         /*line-height: 8vw;
         */border-radius: 5px;
-}
+        
+    }
     .home-model .card .card-footer .btn.disabled {
         background: #ddd!important;
         color: #ababab;
+    }
+    .home-model .card .card-footer .close{
+        position: relative;
+    }
+    .home-model .card .card-footer .close::after {
+        content: "";
+        position: absolute;
+        top: -9px;
+        left: 50%;
+        width: 10px;
+        height: 3px;
+        background: #ff8c46;
+        transform: translateX(-50%);
+        height: 13%;
+        border-radius: 0.53333vw;
+        width: 20%;
+        opacity: 1;
     }
     .addNewClass{
         display: none;
