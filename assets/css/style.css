@@ -1797,12 +1797,12 @@
         width: 8px;
         margin-left: 15px;
     }
-    .deposit h2{
+    .deposit h2 {
         margin: 0;
-        margin-bottom: 6.66667vw;
-        font-size: 7.46667vw;
+        margin-bottom: 24px;
+        font-size: 24px;
         font-weight: 700;
-        line-height: 9.33333vw;
+        line-height: 24px;
     }
     .deposit .grid-wrap {
         display: grid;
@@ -1815,13 +1815,18 @@
         width: 100%;
         background-color: #fff;
         box-shadow: 0 0 1.06667vw 0 #dedede;
-        border-radius: 2.66667vw;
-    }
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
     .deposit .grid-wrap .grid-item  .link-body {
-        height: 26.66667vw;
+        /* height: 26.66667vw; */
         background: no-repeat 0 0/100% 100%;
-        padding-top: 5.33333vw;
-        padding-left: 5.33333vw;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 60px;
     }
     .deposit .grid-wrap  .grid-item:first-child .link-body {
         color: #434f70;
@@ -1833,11 +1838,11 @@
     }
     .deposit .grid-wrap  .grid-item .link-title {
         margin: 0 0 2.13333vw;
-        font-size: 4.26667vw;
+        font-size: 15px;
     }
  
 .deposit .grid-wrap  .grid-item  .link-foot {
-    padding: 4vw;
+    padding: 20px;
     line-height: 1.5;
     color: #6d6d6d;
     font-size: 12px;
@@ -2097,18 +2102,18 @@ color: #6d6d6d;
 }
 .recharge .address-wrap {
     overflow: hidden;
-    margin: 0 4.26667vw 4.26667vw;
-    padding: 4.26667vw;
-    border-radius: 4vw;
+    margin: 20px 5px;
+    padding: 20px;
+    border-radius: 10px;
     background: #f0f4f8;
     margin-top: 35px;
 }
 .recharge  .address-wrap .head {
     display: flex;
     align-items: center;
-    margin-bottom: 4.26667vw;
-    height: 8vw;
-    line-height: 8vw;
+    margin-bottom: 10px;
+    height: 31px;
+    line-height: 28px;
 }
 .recharge  .address-wrap input {
     flex: 1;
@@ -2118,7 +2123,7 @@ color: #6d6d6d;
     height: 32px;
 }
 .recharge .address-wrap .copy-btn {
-    min-width: 20.26667vw;
+    /* min-width: 15px; */
     border-radius: 0 4vw 4vw 0;
     background: var(--color-primary,#f59a23);
     color: #fff;
@@ -2129,8 +2134,12 @@ color: #6d6d6d;
 .recharge .address-wrap .foot {
     overflow: hidden;
     padding: 10px 4.26667vw;
-    border-radius: 4vw;
+    border-radius: 10px;
     background: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .recharge .address-wrap .foot p{
     font-size: 11px;
@@ -2138,7 +2147,7 @@ color: #6d6d6d;
 .recharge .btn-wrap .button{
     margin-bottom: 4vw;
     height: 40px;
-    line-height: 10.66667vw;
+    line-height: 1;
     font-size: 14px;
     border-radius: 50px;
     display: block;
