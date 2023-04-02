@@ -2349,7 +2349,7 @@ color: #6d6d6d;
     text-align: right;
 }
     /* --------------------------------- */
-    /* .home-model {
+    .home-model {
         position: absolute;
         left: 50%;
         top: 50%;
@@ -2363,9 +2363,64 @@ color: #6d6d6d;
         z-index: 10;
     }
     .home-model .card{
-        background-color: red;
-        width: 300px;
-    } */
+        background-color: #ffffff;
+        width: 80%;
+    }
+    .home-model .card .card-header {
+        position: relative;
+        height: 8vh;
+        /* line-height: 15.2vw; */
+        border-radius: 10px 10px 0 0;
+        background: #fff6f0;
+        font-size: 16px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      color: #010166;;
+    }
+    .home-model .card   .card-header:after {
+        content: "";
+        position: absolute;
+        top: -17px;
+        left: -7px;
+        width: 10vh;
+        height: 14.4vw;
+        background: url("/assets//Images/annucment.png") no-repeat 0 0/contain;
+    }
+    .home-model .card .card-body{
+        height: 60vh;
+        overflow-y: scroll;
+        
+    }
+    .home-model .card .card-footer {
+        justify-content: space-between;
+        display: flex;
+        background: #fff;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        border-top: 0;
+    
+    }
+    .home-model .card .card-footer .btn{
+        width: 31%;
+        background: #ff8c46;
+        font-size: 14px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        height: 30px;
+        /*line-height: 8vw;
+        */border-radius: 5px;
+}
+    .home-model .card .card-footer .btn.disabled {
+        background: #ddd!important;
+        color: #ababab;
+    }
+    .addNewClass{
+        display: none;
+    }
+
     /*--------------------------- */
     
     footer {

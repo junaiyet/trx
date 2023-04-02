@@ -11,3 +11,8 @@ $('.home-slider').slick({
 setTimeout(function(){
   $(".preloder").fadeOut()
 },3000);
+
+
+$(".close").click(function(){
+  $(".home-model").addClass("addNewClass")
+})
