@@ -58,8 +58,8 @@
                      <!---->
                      <div class="round-box">
                         <div role="button" tabindex="0" class="choose">
-                           <div class="title">
-                              <span>Choose withdrawal account</span>
+                           <div class="title" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                              <span >Choose withdrawal account</span>
                               <img src="assets/Images/left-arrow.png" alt="arr">
                            </div>
                         </div>
@@ -81,6 +81,26 @@
                </form>
          </div>
          <!--  -->
+
+
+         <!-- Button trigger modal -->
+
+ 
+ <!-- Modal -->
+ <div class="modal withdrawal-modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+      
+       <div class="modal-body">
+         <a href="digital-currency.html">Add digital currency wallet</a>
+       </div>
+       <div class="modal-footer">
+         <button type="button" data-bs-dismiss="modal">CANCEL</button>
+     
+       </div>
+     </div>
+   </div>
+ </div>
          </section>
          <!--  -->
          <div class="gap" style="height: 60px;"></div>
