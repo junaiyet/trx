@@ -2760,6 +2760,10 @@ footer .footer-item a p {
   -ms-user-select: none;
 }
 
+#exampleModalTelegram .footer img {
+    width: 30px;
+}
+
 .nbr {
     font-size: 14px; 
     color: #0000ff;
