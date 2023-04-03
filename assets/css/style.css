@@ -2590,7 +2590,7 @@ dd {
     left: -7px;
     width: 10vh;
     height: 14.4vw;
-    background: url("assets//Images/annucment.png") no-repeat 0 0/contain;
+    background: url("../Images/annucment.png") no-repeat 0 0/contain;
 }
 
 .home-model .card .card-body {
@@ -2733,6 +2733,40 @@ footer .footer-item a p {
 
 .footer .footer-item.active p {
     color: #ff8c46;
+}
+
+.telegram_boat#teltWrapp {
+    position: fixed; 
+    right: 0;
+    top: 50%;
+    z-index: 9;
+}
+
+.telegram_boat img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.telegram_boat#teltWrapp .box {
+  position: relative;
+  background: transparent;
+  cursor: pointer;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.nbr {
+    font-size: 14px; 
+    color: #0000ff;
+}
+
+.nbr2 {
+    color: #ff0000;
 }
 
 /* -------------------------------- */
